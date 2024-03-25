@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wide-wrapper">
+        <div class="homepage-section">
+            <div class="navigation-container">
+                <div class="navigation-elements">Home</div>
+            </div>
+        </div>
+        <div class="header-section">
+            <div class="header-container w-container">
+                <h1 class="heading hn">MEDx A/B Testing</h1>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container w-container" style="padding-bottom:0">
+                <div class="title-container"><h3>INTRODUCTION</h3></div>
+                <div class="body-text-container">
+                    <h2>In an attempt to evaluate the effectiveness of MEDx's appointment management page, an A/B test is 
+                        conducted to advise potential visual updates in hopes of achieving a smoother user experience when 
+                        navigating the page.
+                    </h2>
+                </div>
+                <div class="table-container">
+                    <div class="table-element-container">
+                        <div class="table-element-heading">
+                            <h3>MY ROLE</h3>
+                        </div>
+                        <div class="table-element-body">
+                            <h4>Responsible for proposing and implementing new designs & conducting A/B testing.</h4>
+                        </div>
+                    </div>
+                    <div class="table-element-container" style="text-align: right">
+                        <div class="table-element-heading">
+                            <h3>TIMELINE</h3>
+                        </div>
+                        <div class="table-element-body">
+                            <h4>March 2024</h4>
+                        </div>
+                    </div>
+                    <div class="table-element-container">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="section">
+            <div class="container w-container">
+                <div class="title-container"><h3><b>THE DESIGNS:</b></h3></div>
+                <div class="image-container padding" style="padding-left:0; padding-right:0">
+                    <img src="./images/version-A.png" alt="Version A image">
+                    <img src="./images/version-B.png" alt="Version B image">
+                </div>
+                <div class="title-container"><h3><b>MODIFIED FEATURES</b></h3></div>
+                <div class="body-text-container">
+                    <h2>
+                        <li>
+                            More distinguishable styling on the appointment buttons
+                        </li>
+                        <li>
+                            Added a background colour on the dates
+                        </li>
+                        <li>
+                            Black and bolded font on the “name” and “location”
+                        </li>
+                    </h2>
+                </div>
+                <br>
+                <div class="body-text-container" style="background-color: #D8E8FD; padding-left:10px; padding-right: 10px; border-radius: 10px">
+                    <h2><b>User Task:</b>
+                        <br>
+                        Schedule an appointment with Adam Ng, MD at Morristown Medical Center on April 23, 2024
+                    </h2>
+                </div>
+                <br>
+                <div class="title-container"><h3 style="color: black;"><b>HYPOTHESIS FOR EACH METRIC</b></h3></div>
+
+
+                <div class="table-container">
+                    <div class="table-element-container full-width">
+                        
+                        <div class="table-subcomponent">
+                            <div class="accent-bar"></div>
+                            <div>
+                                <div class="table-element-heading">
+                                    <h3 style="color: black"><b>❌ Misclick Rate</b></h3>
+                                    <h3><b>Definition:</b>the frequency with which users click something else on the page before finding the correct button for the task</h3>
+                                </div>
+                                <div class="grey-table-container">
+                                    <div class="grey-box">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Null Hypothesis</b></h3></div>
+                                        <div class="table-element-body"><h3>The misclick rate in version A is the same as the misclick rate in version B</h3></div>
+                                    </div>
+                                    <div class="grey-box">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Alternative Hypothesis</b></h3></div>
+                                        <div class="table-element-body"><h3>The misclick rate in version B is lower than the misclick rate in version A because the 
+                                            “See Appointment” & “Schedule Appointment” buttons are different colours.</h3></div>
+                                    </div>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3><b>Prediction:</b> We will end up rejecting the null hypothesis because version B’s buttons are more visually accessible and easier to differentiate, leading to lower misclicks.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="table-subcomponent">
+                            <div class="accent-bar"></div>
+                            <div>
+                                <div class="table-element-heading">
+                                    <h3 style="color: black"><b>⏳ Time on Page</b></h3>
+                                    <h3><b>Definition:</b>the time spent on the webpage for each user group before completing the task</h3>
+                                </div>
+                                <div class="grey-table-container">
+                                    <div class="grey-box">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Null Hypothesis</b></h3></div>
+                                        <div class="table-element-body"><h3>The time spent on version A is the same as the time spent on version B</h3></div>
+                                    </div>
+                                    <div class="grey-box">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Alternative Hypothesis</b></h3></div>
+                                        <div class="table-element-body"><h3>The time spent on version B is lower than the time spent on version 
+                                            A because the additional colour blocks help highlight different important information, leading to faster navigation times.</h3></div>
+                                    </div>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3><b>Prediction:</b> We will end up rejecting the null hypothesis because version B’s layout is more differentiable, allowing the user to understand and access necessary information faster. </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="table-subcomponent">
+                            <div class="accent-bar"></div>
+                            <div>
+                                <div class="table-element-heading">
+                                    <h3 style="color: black"><b>👆🏻 Number of Clicks</b></h3>
+                                    <h3><b>Definition:</b>Total number of clicks made by each user group</h3>
+                                </div>
+                                <div class="grey-table-container">
+                                    <div class="grey-box">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Null Hypothesis</b></h3></div>
+                                        <div class="table-element-body"><h3>The number of clicks in version A is the same as the number of clicks in version B</h3></div>
+                                    </div>
+                                    <div class="grey-box">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Alternative Hypothesis</b></h3></div>
+                                        <div class="table-element-body"><h3>The number of clicks in version B is lower than the number of clicks in version A because the buttons are highlighted and differentiated, 
+                                            allowing the user to complete their task with minimal clicks.</h3></div>
+                                    </div>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3><b>Prediction:</b> We will end up rejecting the null hypothesis because version B’s “Schedule Appointment” button is more visible, allowing the user to target it more quickly without having to click around to figure out the navigations.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="section">
+            <div class="container w-container" style="padding-top: 0">
+                <div class="title-container"><h3><b>Running Statistical Tests on the data</b>
+                    <br>
+                    Example CSV data:
+                </h3></div>
+                <div class="body-text-container" style="background-color: rgb(221, 221, 221); padding-left:15%; padding-right: 10px; border-radius: 10px;">
+                    <h3 style="font-size:18px">
+                        { 
+                        <br>
+                        <div style="margin-left: 15px;">
+                            <b>time_on_page</b>: total time in milliseconds;
+                            <br>
+                            <b>num_clicks</b>: the number of times user clicked on the screen;
+                            <br>
+                            <b>did_misclick</b>: boolean flag for user clicking a button external to the task;
+                        </div>
+                        }
+                    </h3>
+                </div>
+
+                <div class="table-container">
+                    <div class="table-element-container full-width">
+
+                        <div class="table-subcomponent">
+                            <div class="accent-bar"></div>
+                            <div style="padding: 10px;">
+                                <div class="table-element-heading">
+                                    <h3 style="color: black"><b>❌ Misclick Rate</b></h3>
+                                    <h3>A Chi-Square test was conducted on the dataset as we are evaluating categorical data. From the data, 
+                                        version A had 7 misclicks out of 34 and version B had 1 misclick out of 28. After performing a Chi-Square test, the resulting values are:</h3>
+                                </div>
+                                <div class="grey-box-full">
+                                    <div>Degrees of Freedom: 1</div>
+                                    <div>Chi-square (χ2): 3.956</div>
+                                    <div>p-value: 0.0466</div>
+                                </div>
+                                <div class="table-element-body"><h3>
+                                    From the values, a high chi-square value of 3.956 indicates that there is a discrepancy between the observed and expected values. 
+                                    Since the expected values are calculated under the assumption of the null hypothesis, a high discrepancy indicates that the dataset does not align with the null hypothesis. 
+                                    A p-value of 0.0466 (which is lower than 0.05) suggest strong evidence against the null hypothesis. Therefore, with the values above, 
+                                    we will <b>reject the null hypothesis</b> that the misclick rate is the same for versions A and B. </h3>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3><b>Summary Statistics</b></h3>
+                                </div>
+                                <div class="grey-table-container" style="justify-content: space-evenly">
+                                    <div class="AB-box" style="background-color: #D8E8FD;">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Version A</b></h3></div>
+                                        <div class="table-element-body"><h3>
+                                            # of misclicks: 7
+                                            <br>
+                                            # of correct clicks: 27
+                                            <br>
+                                            Mean: 0.259
+                                            <br>
+                                            Mode: FALSE
+                                        </h3></div>
+                                    </div>
+                                    <div class="AB-box" style="background-color: #a0c8eb;">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Version B</b></h3></div>
+                                        <div class="table-element-body"><h3>
+                                            # of misclicks: 1
+                                            <br>
+                                            # of correct clicks: 27
+                                            <br>
+                                            Mean: 0.143
+                                            <br>
+                                            Mode: FALSE
+                                        </h3></div>
+                                    </div>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3>From the summary statistics, version A has an overall higher misclick rate than version B, 
+                                        which could suggest that the changes made to version B helped reduce the misclick rate. 
+                                        However, version A had a large sample size (34) whereas version B only had 28. This means that although the data suggests a lower misclick rate in B, 
+                                        it is still insufficient evidence to conclude that the difference is due to the visual changes. </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="table-subcomponent">
+                            <div class="accent-bar"></div>
+                            <div style="padding: 10px;">
+                                <div class="table-element-heading">
+                                    <h3 style="color: black"><b>⏳ Time on Page</b></h3>
+                                    <h3>A one-tailed T test was conducted on the dataset as we are evaluating the data with a directional hypothesis in mind (time spent on B is lower than A). 
+                                        After performing the T-test, the resulting values are:</h3>
+                                </div>
+                                <div class="grey-box-full">
+                                    <div>Degrees of Freedom: 59.973</div>
+                                    <div>T-score (A-B) : 0.971</div>
+                                    <div>p-value: 0.832</div>
+                                </div>
+                                <div class="table-element-body"><h3>
+                                    From the values, the t-score (which measures the mean between A & B differ relative to the variation) is 0.971, which indicates that the mean time spent on A is 
+                                    0.971 standard errors greater than the mean time spent on B. The p-value calculated from the t-score is 0.832. Since our hypothesis is that time spent on B is 
+                                    less than A, our p-value relative to our hypothesis would be 0.163. Since the p-value is not less than the significance value (0.05), we 
+                                    <b>fail to reject the null hypothesis</b> since the discrepancy is statistically insignificant.</h3>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3><b>Summary Statistics</b></h3>
+                                </div>
+                                <div class="grey-table-container" style="justify-content: space-evenly">
+                                    <div class="AB-box" style="background-color: #D8E8FD;">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Version A</b></h3></div>
+                                        <div class="table-element-body"><h3>
+                                            Average: 12860.44
+                                            <br>
+                                            Variance: 140609949
+                                            <br>
+                                            Median: 8526.5
+                                        </h3></div>
+                                    </div>
+                                    <div class="AB-box" style="background-color: #a0c8eb;">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Version B</b></h3></div>
+                                        <div class="table-element-body"><h3>
+                                            Average: 10171.43
+                                            <br>
+                                            Variance: 98858865.5
+                                            <br>
+                                            Median: 7982.5
+                                        </h3></div>
+                                    </div>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3>From the summary statistics, version A has higher statistics across all values compared to version B, indicating that the overall time spent on page for
+                                         version A is higher than B. However, since we failed to reject the null hypothesis, the different is not statistically significant enough to indicate 
+                                         that the time spent on version B is less than A.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="table-subcomponent">
+                            <div class="accent-bar"></div>
+                            <div style="padding: 10px;">
+                                <div class="table-element-heading">
+                                    <h3 style="color: black"><b>👆🏻 Number of Clicks</b></h3>
+                                    <h3>A one-tailed T test was conducted on the dataset as we are evaluating the data with a directional hypothesis in mind (number of clicks in B is less than A). 
+                                        After performing the T-test, the resulting values are:</h3>
+                                </div>
+                                <div class="grey-box-full">
+                                    <div>Degrees of Freedom: 40.932</div>
+                                    <div>T-score (A-B) : 1.266</div>
+                                    <div>p-value: 0.894</div>
+                                </div>
+                                <div class="table-element-body"><h3>
+                                    From the values, the t-score is 1.266, which indicates that the number of clicks in A is 1.266 standard errors greater than the number of clicks in B. 
+                                    The p-value calculated from the t-score is 0.894. Since our hypothesis is that the number of clicks in B is less than A, our p-value relative to our 
+                                    hypothesis would be 0.106. Since the p-value is not less than the significance value (0.05), 
+                                    <b>we fail to reject the null hypothesis</b> since the discrepancy is statistically insignificant.</h3>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3><b>Summary Statistics</b></h3>
+                                </div>
+                                <div class="grey-table-container" style="justify-content: space-evenly">
+                                    <div class="AB-box" style="background-color: #D8E8FD;">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Version A</b></h3></div>
+                                        <div class="table-element-body"><h3>
+                                            Average: 3.088
+                                            <br>
+                                            Variance: 8.749
+                                            <br>
+                                            Median: 2
+                                            <br>
+                                            Mode: 2
+                                        </h3></div>
+                                    </div>
+                                    <div class="AB-box" style="background-color: #a0c8eb;">
+                                        <div class="table-element-heading"><h3 style="text-align: center"><b>Version B</b></h3></div>
+                                        <div class="table-element-body"><h3>
+                                            Average: 2.407
+                                            <br>
+                                            Variance: 0.866
+                                            <br>
+                                            Median: 2
+                                            <br>
+                                            Mode: 2
+                                        </h3></div>
+                                    </div>
+                                </div>
+                                <div class="table-element-heading">
+                                    <h3>From the summary statistics, version A has a higher average compared to version B, meaning that on average, the users clicked more times in A than B before completing the task. 
+                                        From the variance values, we can also see that the number of clicks deviated less from the average in version B, indicating that it was more common for users to complete the 
+                                        task with minimal clicks in version B.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container w-container">
+                <div class="title-container"><h3>CONCLUSION</h3></div>
+                <div class="body-text-container">
+                    <h2>Out of the 3 metrics, we reject the null hypothesis in misclick rate and fail to reject the null hypothesis
+                        in time spent on page & number of clicks. Therefore, the modifications made to version B have demonstrated to 
+                        be partially successful in improving the user experience. However, more sufficient evidence would be needed to
+                        support the alternative hypotheses.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

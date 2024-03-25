@@ -1,0 +1,24 @@
+.gif-container {
+    display: flex; 
+    flex-direction: row;
+    padding: 50px;
+}
+
+#desktop-gif {
+    padding:0;
+    /* width: 50%; */
+}
+
+#tablet-gif {
+    padding:0;
+    /* width: 30%; */
+}
+
+#mobile-gif {
+    padding:0;
+    /* width: 20%; */
+}
+
+body .bagel-page {
+    background-color: white;
+}

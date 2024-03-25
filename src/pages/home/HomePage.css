@@ -1,0 +1,115 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+.home-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-container {
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pfp-image-container {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+    pointer-events: none;
+}
+
+.home-heading {
+    max-width: 500px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.home-subheading {
+    max-width: 500px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.homepage-middle-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.human-hand-container {
+    position: absolute;
+    left: 0;
+    top: 180vh;
+    pointer-events: none;
+}
+
+.robot-hand-container {
+    width: 100%;
+    position: absolute;
+    right: -500px;
+    top: 55vh;
+    pointer-events: none;
+}
+
+.middle-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 70px;
+}
+
+.home-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.social-icon {
+    padding: 10px 20px 10px 0;
+    font-size: 22px;
+    color: #444444;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #737373;
+}

@@ -1,0 +1,75 @@
+.ab-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ab-image-container img {
+    max-width: 48%;
+    height: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.grey-table-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grey-box {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    max-width: 48%;
+}
+
+.AB-box {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.grey-box-full {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.table-element-heading h3 {
+    margin: 10px;
+}
+
+.table-element-body h3 {
+    margin: 15px;
+    margin-top: 0;
+}
+
+.table-subcomponent {
+    display: flex;
+    flex-direction: row;
+}
+
+.accent-bar {
+    height: 100%;
+    width: 10px;
+    background-color: #9fc2f0;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.table-subcomponent:hover .accent-bar{
+    opacity: 1;
+}
+
+body .abtesting-page {
+    background-color: white;
+}
