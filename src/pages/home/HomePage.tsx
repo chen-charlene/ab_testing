@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {Link} from 'react-scroll';
+// import {Link} from 'react-scroll';
 import "./HomePage.css"
 import ProjectsPage from './ProjectsPage';
 // import me1Img from "./../../assets/images/HomePage/me1.png";

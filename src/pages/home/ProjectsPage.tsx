@@ -6,6 +6,7 @@ export default function ProjectsPage() {
   const bagelImg = require("./../../assets/images/ProjectsPage/bagel-thumbnail.png")
   const abImg = require("./../../assets/images/ProjectsPage/ab-thumbnail.png")
   const remyImg = require("./../../assets/images/ProjectsPage/remy-thumbnail.png")
+  const spotiImg = require("./../../assets/images/ProjectsPage/spotiduo-thumbnail.png")
   const navigate = useNavigate();
   const sectionRef = useRef(null)
 
@@ -39,6 +40,16 @@ export default function ProjectsPage() {
         </div>
       </div>
 
+      <div className="project-container" onClick={() => navToPage("spotiduo")}>
+        <div className="project-image-container" style={{backgroundColor: "#5975AA"}}>
+          <img src={spotiImg}></img>
+        </div>
+        <div className="project-text-container">
+          <div className="project-heading">Spotiduo Language Learning</div>
+          <div className='project-body'>Helping users learn new languages through songs</div>
+        </div>
+      </div>
+
       <div className="project-container" onClick={() => navToPage("abtesting")}>
         <div className="project-image-container" style={{backgroundColor: "#EBD682"}}>
           <img src={abImg}></img>
@@ -46,14 +57,6 @@ export default function ProjectsPage() {
         <div className="project-text-container">
           <div className="project-heading">MEDx website A/B Testing</div>
           <div className='project-body'>Conducting analytics on MEDx's appointment site</div>
-        </div>
-      </div>
-
-      <div className="project-container">
-        <div className="project-image-container"></div>
-        <div className="project-text-container">
-          <div className="project-heading">under construction...</div>
-          <div className='project-body'></div>
         </div>
       </div>
     </div>

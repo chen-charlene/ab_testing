@@ -7,6 +7,7 @@ import HomePage from "./pages/home/HomePage";
 import BagelPage from "./pages/projects/bagel_gourmet_redesign/BagelPage";
 import ABPage from "./pages/projects/ab_testing/ABPage";
 import RemyPage from "./pages/projects/remys_playground/RemyPage";
+import SpotiduoPage from "./pages/projects/spotiduo/SpotiduoPage";
 
 /**
  * This is the highest level component!
@@ -28,6 +29,7 @@ function App() {
             <Route path="/bagelgourmet" element={<BagelPage />} />
             <Route path="/abtesting" element={<ABPage />} />
             <Route path="/remysplayground" element={<RemyPage />} />
+            <Route path="/spotiduo" element={<SpotiduoPage />} />
           </Routes>
         </Router>
       </div>

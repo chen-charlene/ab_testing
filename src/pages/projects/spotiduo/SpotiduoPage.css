@@ -1,0 +1,95 @@
+.spotiduo-page {
+    background-color: white;
+}
+
+.ca-table {
+    background-color: #F5F5F5;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.ca-th, .ca-td, .ca-tr {
+    border: solid 3px #dad6d6;
+    padding: 10px;
+}
+
+
+
+.ca-th {
+    background-color: #eae6e6;
+}
+
+.factor-col {
+    color: black;
+    letter-spacing: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Generalsans, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    max-width: 200px;
+    text-align: left;
+}
+
+.content-col {
+    color: rgb(55, 53, 53);
+    letter-spacing: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Generalsans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 200px;
+    text-align: left;
+}
+
+.gif-container-spoti {
+    display: flex; 
+    flex-direction: column;
+    padding: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gif-row {
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.gif-1-spoti {
+    width: 70%;
+}
+
+.gif-text-container-spoti {
+    width: 30%;
+    text-align: center;
+    padding: 3%;
+}
+
+.nav-button {
+    width: 180px;
+    height: 60px;
+    background-color: #E76950;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: transform 0.3 ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(5px 5px 0px #e04b2d);
+}

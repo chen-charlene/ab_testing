@@ -11,9 +11,9 @@ function Toolbar({scrollToSection}) {
 
             <nav className="navbar">
                 <a href="/projects" onClick={(e) => {e.preventDefault(); scrollToSection()}}><b>projects</b></a>
-                <a href="/about"><b>about</b></a>
+                {/* <a href="/about"><b>about</b></a>
                 <a href="/fun"><b>fun</b></a>
-                <a href="/resume"><b>resume</b></a>
+                <a href="/resume"><b>resume</b></a> */}
             </nav>
     </header>
     )
