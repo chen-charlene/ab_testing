@@ -42,11 +42,17 @@ function App() {
         <Toolbar/>
           <Routes>
             <Route path="/" element={<HomePage isProjectsPage={false}/>} />
+            {/* remove after grading */}
             <Route path="/bagelgourmet" element={<BagelPage />} />
             <Route path="/abtesting" element={<ABPage />} />
             <Route path="/remysplayground" element={<RemyPage />} />
             <Route path="/spotiduo" element={<SpotiduoPage />} />
+            {/* remove after grading */}
             <Route path="/projects" element={<HomePage isProjectsPage={true}/>} />
+            <Route path="/projects/bagelgourmet" element={<BagelPage />} />
+            <Route path="/projects/abtesting" element={<ABPage />} />
+            <Route path="/projects/remysplayground" element={<RemyPage />} />
+            <Route path="/projects/spotiduo" element={<SpotiduoPage />} />
           </Routes>
         </Router>
       </div>
