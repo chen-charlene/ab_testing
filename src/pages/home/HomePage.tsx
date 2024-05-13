@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom';
 // import {Link} from 'react-scroll';
 import "./HomePage.css"
 import ProjectsPage from './ProjectsPage';
 // import me1Img from "./../../assets/images/HomePage/me1.png";
 
-export default function HomePage({sectionRef}) {
+export default function HomePage({isProjectsPage}) {
   const me1Img = require('./../../assets/images/HomePage/me1.png');
   const me2Img = require('./../../assets/images/HomePage/me2.png');
   const humanHandImg = require('./../../assets/images/HomePage/human-hand.png');
@@ -12,6 +13,21 @@ export default function HomePage({sectionRef}) {
   const chubImg = require('./../../assets/images/HomePage/me-chubs.png');
   const [isHover, setIsHover] = useState(false)
   const [scrollPosition, setScrollPosition] = useState(0)
+  const location = useLocation();
+
+  useEffect(() => {
+    console.log(isProjectsPage)
+    if (isProjectsPage) {
+      const sectionRef = document.querySelector('.projects-page-container');
+      console.log(sectionRef)
+      sectionRef?.scrollIntoView({behavior: "smooth"})
+    }
+    isProjectsPage = !isProjectsPage
+  }, [isProjectsPage])
+
+  const scrollToSection = () => {
+
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -70,7 +86,7 @@ export default function HomePage({sectionRef}) {
 
       </div>
       
-      <div className="projects-page-container wider-w-container" ref={sectionRef}>
+      <div className="projects-page-container wider-w-container">
         <ProjectsPage/>
       </div>
 
