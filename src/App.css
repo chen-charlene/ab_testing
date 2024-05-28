@@ -1,15 +1,33 @@
-/* css styling for App
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.App {
-  text-align: center;
-  min-height: 100vh;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-} */
+
+:root {
+    --primary-red: #E76950;
+    --primary-blue: #5f80ce;
+    /* --primary-blue: #5F74A6; */
+    --primary-yellow: #EBD682;
+    --primary-cream: #EAE9E5;
+    --primary-white: #F9F9F9;
+    --text-dark: #292929;
+    --text-grey: #444444;
+    --text-light: #737373;
+    --transition-time: all 0.2s ease-in-out;
+    --font-bold: 700;
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-  overflow-x: hidden;
+    font-family: "Montserrat", sans-serif !important;
+    color: var( --text-dark);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--primary-white);
+    overflow-x: hidden;
 }
+
+
 
 

@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useRef } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import "./App.css";
 import Toolbar from "./components/toolbar/Toolbar";
@@ -8,6 +11,7 @@ import BagelPage from "./pages/projects/bagel_gourmet_redesign/BagelPage";
 import ABPage from "./pages/projects/ab_testing/ABPage";
 import RemyPage from "./pages/projects/remys_playground/RemyPage";
 import SpotiduoPage from "./pages/projects/spotiduo/SpotiduoPage";
+import SpotiduoPage2 from "./pages/projects/spotiduo2/SpotiduoPage"
 import ProjectsPage from "./pages/home/ProjectsPage";
 
 /**
@@ -46,13 +50,13 @@ function App() {
             <Route path="/bagelgourmet" element={<BagelPage />} />
             <Route path="/abtesting" element={<ABPage />} />
             <Route path="/remysplayground" element={<RemyPage />} />
-            <Route path="/spotiduo" element={<SpotiduoPage />} />
+            <Route path="/spotiduo" element={<SpotiduoPage2 />} />
             {/* remove after grading */}
             <Route path="/projects" element={<HomePage isProjectsPage={true}/>} />
             <Route path="/projects/bagelgourmet" element={<BagelPage />} />
             <Route path="/projects/abtesting" element={<ABPage />} />
             <Route path="/projects/remysplayground" element={<RemyPage />} />
-            <Route path="/projects/spotiduo" element={<SpotiduoPage />} />
+            <Route path="/projects/spotiduo" element={<SpotiduoPage2 />} />
           </Routes>
         </Router>
       </div>

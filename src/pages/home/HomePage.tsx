@@ -86,11 +86,11 @@ export default function HomePage({isProjectsPage}) {
 
       </div>
       
-      <div className="projects-page-container wider-w-container">
+      <div id="projects" className="projects-page-container wider-w-container">
         <ProjectsPage/>
       </div>
 
-      <div className="home-footer wider-w-container">
+      <div className="home-footer wider-w-container align-items-center">
         <h1 style={{fontSize:"18px"}}>Coded from scratch with 
           <span style={{fontFamily:"Trebuchet MS", fontWeight: 200}}> {`<3`} </span>
           by Charlene
